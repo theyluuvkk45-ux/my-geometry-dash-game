@@ -1,0 +1,39 @@
+{
+	"name": "Better Ship Test",
+	"description": "",
+	"settings": {
+		"colorbg": [0, 125, 255],
+		"colorground": [0, 125, 255],
+		"gamemode": "ship",
+		"platformer": true
+	},
+	"objects": [
+		{"type": "block.basic-block", "data": {"x": 3, "y": 1, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 4, "y": 1, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 5, "y": 1, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 6, "y": 1, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 7, "y": 1, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 8, "y": 1, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 9, "y": 1, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 10, "y": 1, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 11, "y": 1, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 12, "y": 1, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 3, "y": 6, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 4, "y": 6, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 5, "y": 6, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 6, "y": 6, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 7, "y": 6, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 8, "y": 6, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 9, "y": 6, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 10, "y": 6, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 11, "y": 6, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 12, "y": 6, "rotation": 0, "groups": []}},
+		{"type": "portal.gravity-up", "data": {"x": 1, "y": 6, "rotation": 270, "groups": []}},
+		{"type": "portal.gravity-down", "data": {"x": 1, "y": 1, "rotation": 90, "groups": []}}
+	],
+	"completion": {
+		"percentage": 100,
+		"coins": []
+	},
+	"deleted": false
+}

@@ -1,0 +1,36 @@
+{
+	"name": "Move Trigger Test",
+	"description": "",
+	"settings": {
+		"colorbg": [0, 125, 255],
+		"colorground": [0, 125, 255],
+		"gamemode": "cube",
+		"platformer": false
+	},
+	"objects": [
+		{"type": "special.trigger.move", "data": {"x": 3, "y": 1, "needsTouch": false, "targetGroup": "go-up", "xAmount": 0, "yAmount": 2, "duration": 60, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 6, "y": 0, "rotation": 0, "groups": ["go-up"]}},
+		{"type": "block.basic-block", "data": {"x": 7, "y": 2, "rotation": 0, "groups": ["go-down"]}},
+		{"type": "special.trigger.move", "data": {"x": 3, "y": 0, "needsTouch": false, "targetGroup": "go-down", "xAmount": 0, "yAmount": -2, "duration": 90, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 15, "y": 0, "rotation": 0, "groups": ["go-up", "go-down"]}},
+		{"type": "block.basic-block", "data": {"x": 16, "y": 0, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 17, "y": 0, "rotation": 0, "groups": ["walkway-1"]}},
+		{"type": "block.basic-block", "data": {"x": 18, "y": 0, "rotation": 0, "groups": ["walkway-2"]}},
+		{"type": "block.basic-block", "data": {"x": 19, "y": 0, "rotation": 0, "groups": ["walkway-3"]}},
+		{"type": "block.basic-block", "data": {"x": 20, "y": 0, "rotation": 0, "groups": ["walkway-4"]}},
+		{"type": "block.basic-block", "data": {"x": 21, "y": 0, "rotation": 0, "groups": ["walkway-5"]}},
+		{"type": "special.trigger.move", "data": {"x": 12, "y": 1, "needsTouch": false, "targetGroup": "walkway-1", "xAmount": 0, "yAmount": 2, "duration": 30, "groups": []}},
+		{"type": "special.trigger.move", "data": {"x": 13, "y": 1, "needsTouch": false, "targetGroup": "walkway-2", "xAmount": 0, "yAmount": 2, "duration": 30, "groups": []}},
+		{"type": "special.trigger.move", "data": {"x": 14, "y": 1, "needsTouch": false, "targetGroup": "walkway-3", "xAmount": 0, "yAmount": 2, "duration": 30, "groups": []}},
+		{"type": "special.trigger.move", "data": {"x": 15, "y": 1, "needsTouch": false, "targetGroup": "walkway-4", "xAmount": 0, "yAmount": 2, "duration": 30, "groups": []}},
+		{"type": "special.trigger.move", "data": {"x": 16, "y": 1, "needsTouch": false, "targetGroup": "walkway-5", "xAmount": 0, "yAmount": 2, "duration": 30, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 22, "y": 0, "rotation": 0, "groups": ["walkway-underneath", "walkway-1"]}},
+		{"type": "death.basic-spike", "data": {"x": 22, "y": 1, "rotation": 0, "groups": ["walkway-underneath", "walkway-1"]}},
+		{"type": "special.trigger.move", "data": {"x": 0, "y": 0, "needsTouch": false, "targetGroup": "walkway-underneath", "xAmount": -5, "yAmount": -2, "duration": 0, "groups": []}}
+	],
+	"completion": {
+		"percentage": 100,
+		"coins": []
+	},
+	"deleted": false
+}

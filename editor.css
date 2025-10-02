@@ -1,0 +1,39 @@
+#scene {
+	--tile-size: 30px;
+	/* special editor background */
+	background: url(../assets/editor/grid.png), url(../assets/game/Background.png), #007dff;
+	background-size: var(--tile-size), cover, auto;
+	background-position-y: calc(100% - var(--floor-height));
+}
+
+#editor {
+	/* positioning */
+	position: absolute;
+	width: 100%;
+	height: var(--floor-height);
+	bottom: 0;
+	box-sizing: border-box;
+	/* img */
+	background: white;
+	padding: 1em;
+	overflow-y: auto;
+	z-index: 10;
+}
+.option-element {
+	display: inline-block;
+	margin: 0.5em;
+	padding: 0.5em;
+	border: 1px solid black;
+	transition: color 0.3s linear, background-color 0.3s linear;
+	color: black;
+	background-color: #007dff;
+}
+.option-element.option-element-selected {
+	color: white;
+	background-color: black;
+}
+.editing {
+	margin-top: 0.5em;
+	border-top: 1px solid black;
+	padding-top: 0.5em;
+}

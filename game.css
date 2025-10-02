@@ -1,0 +1,21 @@
+.stage > div > div {
+	display: inline-block;
+}
+.finish-button {
+	--size: calc(var(--tile-size) * 2);
+	width: var(--size);
+	height: var(--size);
+	transition: transform 0.1s ease-in-out;
+	transform: none;
+}
+.finish-button:hover {
+	transform: translateY(-5px);
+}
+/* .particle {
+	--real-size: calc(var(--tile-size) * var(--size));
+	/*        Invert          Y * tileSize                   Center * /
+	bottom: calc(calc(var(--floor-height) + calc(calc(var(--y) * var(--tile-size)) - calc(var(--real-size) / 2))) + calc(-1 * calc(var(--move-amount-y) * var(--tile-size))));
+	left: calc(calc(calc(var(--x) * var(--tile-size)) - calc(var(--real-size) / 2)) + calc(-1 * calc(var(--move-amount-x) * var(--tile-size))));
+	width: var(--real-size);
+	height: var(--real-size);
+} */

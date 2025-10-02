@@ -1,0 +1,24 @@
+{
+	"name": "Platformer Wave Test",
+	"description": "",
+	"settings": {
+		"colorbg": [0, 125, 255],
+		"colorground": [0, 125, 255],
+		"gamemode": "wave",
+		"platformer": true
+	},
+	"objects": [
+		{"type": "block.basic-block", "data": {"x": 5, "y": 3, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 6, "y": 3, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 7, "y": 3, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 8, "y": 3, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 9, "y": 3, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 10, "y": 3, "rotation": 0, "groups": []}},
+		{"type": "portal.gravity-up", "data": {"x": 15, "y": 3, "rotation": 0, "groups": []}}
+	],
+	"completion": {
+		"percentage": 55,
+		"coins": []
+	},
+	"deleted": false
+}

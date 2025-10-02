@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 100">
+	<defs>
+		<linearGradient id="lineGradient">
+			<stop offset="0%" stop-color="#0000" />
+			<stop offset="100%" stop-color="#000A" />
+		</linearGradient>
+		<linearGradient id="mainGradient" gradientTransform="rotate(90)">
+			<stop offset="0%" stop-color="#0003" />
+			<stop offset="100%" stop-color="#000F" />
+		</linearGradient>
+	</defs>
+	<rect x="0" y="0" width="50" height="3" fill="white" />
+	<rect x="0" y="10" width="10" height="90" fill="url(#lineGradient)" />
+	<rect x="10" y="10" width="40" height="90" fill="url(#mainGradient)" />
+</svg>

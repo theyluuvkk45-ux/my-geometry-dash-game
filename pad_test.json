@@ -1,0 +1,28 @@
+{
+	"name": "Pad Test",
+	"description": "",
+	"settings": {
+		"colorbg": [0, 125, 255],
+		"colorground": [0, 125, 255],
+		"gamemode": "cube",
+		"platformer": true
+	},
+	"objects": [
+		{"type": "jump.pad.jump", "data": {"x": 3, "y": 0, "rotation": 0, "groups": []}},
+		{"type": "jump.pad.jump-small", "data": {"x": 5, "y": 0, "rotation": 0, "groups": []}},
+		{"type": "jump.pad.gravity", "data": {"x": 7, "y": 0, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 7, "y": 4, "rotation": 0, "groups": []}},
+		{"type": "jump.pad.gravity", "data": {"x": 7, "y": 3, "rotation": 180, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 6, "y": 4, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 5, "y": 4, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 4, "y": 4, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 3, "y": 4, "rotation": 0, "groups": []}},
+		{"type": "jump.pad.jump-small", "data": {"x": 5, "y": 3, "rotation": 180, "groups": []}},
+		{"type": "jump.pad.jump", "data": {"x": 3, "y": 3, "rotation": 180, "groups": []}}
+	],
+	"completion": {
+		"percentage": 100,
+		"coins": []
+	},
+	"deleted": false
+}

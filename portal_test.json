@@ -1,0 +1,29 @@
+{
+	"name": "Portal Test",
+	"description": "",
+	"settings": {
+		"colorbg": [0, 125, 255],
+		"colorground": [0, 125, 255],
+		"gamemode": "cube",
+		"platformer": true
+	},
+	"objects": [
+		{"type": "portal.gravity-down", "data": {"x": 2, "y": 2, "rotation": 0, "groups": []}},
+		{"type": "portal.gravity-up", "data": {"x": 4, "y": 2, "rotation": 0, "groups": []}},
+		{"type": "portal.gamemode.cube", "data": {"x": 6, "y": 2, "rotation": 0, "groups": []}},
+		{"type": "portal.gamemode.ship", "data": {"x": 8, "y": 2, "rotation": 0, "groups": []}},
+		{"type": "portal.gamemode.ball", "data": {"x": 10, "y": 2, "rotation": 0, "groups": []}},
+		{"type": "portal.gamemode.wave", "data": {"x": 12, "y": 2, "rotation": 0, "groups": []}},
+		{"type": "portal.gravity-down", "data": {"x": 2, "y": 5, "rotation": 90, "groups": []}},
+		{"type": "portal.gravity-down", "data": {"x": 2, "y": 8, "rotation": 180, "groups": []}},
+		{"type": "portal.gravity-down", "data": {"x": 2, "y": 11, "rotation": 270, "groups": []}},
+		{"type": "portal.gravity-up", "data": {"x": 4, "y": 5, "rotation": 90, "groups": []}},
+		{"type": "portal.gravity-up", "data": {"x": 4, "y": 8, "rotation": 180, "groups": []}},
+		{"type": "portal.gravity-up", "data": {"x": 4, "y": 11, "rotation": 270, "groups": []}}
+	],
+	"completion": {
+		"percentage": 58,
+		"coins": []
+	},
+	"deleted": false
+}

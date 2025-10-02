@@ -1,0 +1,53 @@
+{
+	"name": "Coin Test",
+	"description": "",
+	"settings": {
+		"colorbg": [0, 125, 255],
+		"colorground": [0, 125, 255],
+		"gamemode": "ship",
+		"platformer": false
+	},
+	"objects": [
+		{"type": "special.coin", "data": {"x": 2, "y": 5, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 3, "y": 5, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 4, "y": 5, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 3, "y": 4, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 3, "y": 3, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 3, "y": 2, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 6, "y": 5, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 7, "y": 5, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 8, "y": 5, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 6, "y": 4, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 6, "y": 3, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 7, "y": 3, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 8, "y": 3, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 6, "y": 2, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 6, "y": 1, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 7, "y": 1, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 8, "y": 1, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 3, "y": 1, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 12, "y": 5, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 11, "y": 5, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 10, "y": 5, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 10, "y": 4, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 10, "y": 3, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 12, "y": 3, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 11, "y": 3, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 12, "y": 2, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 12, "y": 1, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 11, "y": 1, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 10, "y": 1, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 14, "y": 5, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 15, "y": 5, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 16, "y": 5, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 15, "y": 4, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 15, "y": 3, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 15, "y": 2, "rotation": 0, "groups": []}},
+		{"type": "special.coin", "data": {"x": 15, "y": 1, "rotation": 0, "groups": []}}
+	],
+	"completion": {
+		"percentage": 100,
+		"coins": [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true]
+	},
+	"deleted": false
+}

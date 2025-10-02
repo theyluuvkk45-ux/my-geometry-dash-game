@@ -1,0 +1,87 @@
+html, body {
+	height: 100%;
+}
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+#scene {
+	/* positioning */
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	--tile-size: 4vmin;
+	--bg-color: #007dff;
+	--stage-color: #007dff;
+	--floor-height: 25vh;
+	--move-amount-x: 0;
+	--move-amount-y: 0;
+	user-select: none;
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	/* calc setup */
+	--camera-x: calc(var(--move-amount-x) * var(--tile-size));
+	--camera-y: calc(var(--move-amount-y) * var(--tile-size));
+	/* background */
+	background: url(../assets/game/Background.png), var(--bg-color);
+	background-size: cover;
+	background-position-x: calc(-0.1 * var(--move-amount) * var(--tile-size));
+	filter: url(#main-key-filter);
+}
+#scene > div {
+	position: absolute;
+}
+/* #scene > div.regularPos {
+	--x: 0;
+	--y: 0;
+	--dw: 1; /* Display width/height * /
+	--dh: 1;
+	/* Y calculation * /
+	--world-y: calc(var(--y) * var(--tile-size));
+	--offset-from-tile-height: calc(calc(var(--dh) - 1) / 2 * var(--tile-size));
+	--display-height-off-ground: calc(var(--world-y) - var(--offset-from-tile-height));
+	--world-height: calc(var(--floor-height) + var(--display-height-off-ground));
+	bottom: calc(var(--world-height) + -1 * var(--camera-y));
+	/* X calculation * /
+	--world-x: calc(var(--x) * var(--tile-size));
+	--offset-from-tile-width: calc(calc(var(--dw) - 1) / 2 * var(--tile-size));
+	--display-top-left: calc(var(--world-x) - var(--offset-from-tile-width));
+	left: calc(var(--display-top-left) + -1 * var(--camera-x));
+	/* Size * /
+	width: calc(var(--dw) * var(--tile-size));
+	height: calc(var(--dh) * var(--tile-size));
+} */
+.stage {
+	/* positioning */
+	left: 0px !important;
+	width: 100% !important;
+	height: var(--floor-height) !important;
+	top: unset !important;
+	bottom: calc(-1 * var(--camera-y)) !important;
+	/* img */
+	background: url(../assets/game/Ground_Main.svg), var(--stage-color);
+	background-position-x: calc(-1 * var(--move-amount-x) * var(--tile-size));
+	/* contents */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.progress-bar {
+	width: 100%;
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+}
+.progress-bar div {
+	margin: 0.5em;
+	border-radius: 0.5em;
+	padding: 0.5em;
+	background: white;
+}

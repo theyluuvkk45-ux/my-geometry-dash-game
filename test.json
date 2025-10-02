@@ -1,0 +1,33 @@
+{
+	"name": "Test Level",
+	"description": "A test level to make sure the game is working.",
+	"settings": {
+		"colorbg": [0, 125, 255],
+		"colorground": [0, 125, 255],
+		"gamemode": "cube",
+		"platformer": false
+	},
+	"objects": [
+		{"type": "block.basic-block", "data": {"x": 7, "y": 0, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 7, "y": 1, "rotation": 0, "groups": []}},
+		{"type": "block.half-block", "data": {"x": 8, "y": 1, "rotation": 0, "groups": []}},
+		{"type": "block.half-block", "data": {"x": 9, "y": 1, "rotation": 0, "groups": []}},
+		{"type": "block.half-block", "data": {"x": 10, "y": 1, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 11, "y": 0, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 11, "y": 1, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 11, "y": 2, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 11, "y": 3, "rotation": 0, "groups": []}},
+		{"type": "block.half-block", "data": {"x": 14, "y": 1, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 14, "y": 5, "rotation": 0, "groups": []}},
+		{"type": "death.basic-spike", "data": {"x": 14, "y": 4, "rotation": 180, "groups": []}},
+		{"type": "death.half-spike", "data": {"x": 12, "y": 0, "rotation": 0, "groups": []}},
+		{"type": "death.half-spike", "data": {"x": 13, "y": 0, "rotation": 0, "groups": []}},
+		{"type": "death.half-spike", "data": {"x": 14, "y": 0, "rotation": 0, "groups": []}},
+		{"type": "death.half-spike", "data": {"x": 15, "y": 0, "rotation": 0, "groups": []}}
+	],
+	"completion": {
+		"percentage": 100,
+		"coins": []
+	},
+	"deleted": false
+}

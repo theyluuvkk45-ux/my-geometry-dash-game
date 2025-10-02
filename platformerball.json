@@ -1,0 +1,51 @@
+{
+	"name": "Platformer Ball Level",
+	"description": "",
+	"settings": {
+		"colorbg": [0, 125, 255],
+		"colorground": [0, 125, 255],
+		"gamemode": "ball",
+		"platformer": true
+	},
+	"objects": [
+		{"type": "block.basic-block", "data": {"x": 1, "y": 3, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 2, "y": 3, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 3, "y": 3, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 2, "y": 6, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 3, "y": 6, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 4, "y": 6, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 0, "y": 3, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 0, "y": 4, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 0, "y": 5, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 0, "y": 6, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 0, "y": 7, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 0, "y": 8, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 0, "y": 9, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 0, "y": 10, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 1, "y": 10, "rotation": 0, "groups": []}},
+		{"type": "jump.orb.jump", "data": {"x": 3, "y": 12, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 5, "y": 10, "rotation": 0, "groups": []}},
+		{"type": "death.basic-spike", "data": {"x": 2, "y": 7, "rotation": 0, "groups": []}},
+		{"type": "death.basic-spike", "data": {"x": 3, "y": 7, "rotation": 0, "groups": []}},
+		{"type": "death.basic-spike", "data": {"x": 4, "y": 7, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 5, "y": 6, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 5, "y": 4, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 5, "y": 5, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 5, "y": 3, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 5, "y": 2, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 5, "y": 1, "rotation": 0, "groups": []}},
+		{"type": "death.basic-spike", "data": {"x": 5, "y": 0, "rotation": 180, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 6, "y": 5, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 7, "y": 5, "rotation": 0, "groups": []}},
+		{"type": "block.basic-block", "data": {"x": 7, "y": 8, "rotation": 0, "groups": []}},
+		{"type": "death.basic-spike", "data": {"x": 7, "y": 7, "rotation": 180, "groups": []}},
+		{"type": "death.basic-spike", "data": {"x": 6, "y": 8, "rotation": 270, "groups": []}},
+		{"type": "death.basic-spike", "data": {"x": 8, "y": 8, "rotation": 90, "groups": []}},
+		{"type": "death.basic-spike", "data": {"x": 7, "y": 9, "rotation": 0, "groups": []}}
+	],
+	"completion": {
+		"percentage": 100,
+		"coins": []
+	},
+	"deleted": false
+}
